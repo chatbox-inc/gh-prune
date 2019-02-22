@@ -5,10 +5,22 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "ionic:build": "vue-cli-service build"
   },
   "dependencies": {
-    "vue": "^2.6.6"
+    "@capacitor/cli": "1.0.0-beta.17",
+    "@capacitor/core": "1.0.0-beta.17",
+    "@ionic/core": "^4.0.2",
+    "@modus/ionic-vue": "^1.2.12",
+    "@octokit/rest": "^16.16.0",
+    "bootstrap": "^4.3.1",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.1.0",
+    "vuex-persistedstate": "^2.5.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",

@@ -1,0 +1,27 @@
+$grid-breakpoints: (
+        xs: 0,
+        sm: 480px,
+        md: 640px,
+        lg: 640px,
+        xl: 640px
+);
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+        sm: 480px,
+        md: 480px,
+        lg: 480px,
+        xl: 480px
+);
+
+
+@import "bootstrap/scss/bootstrap.scss";
+
+.container {
+  width: 100%;
+  max-width: 640px;
+
+}

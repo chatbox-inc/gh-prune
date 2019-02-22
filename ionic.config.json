@@ -1,0 +1,10 @@
+{
+  "name": "My App",
+  "webDir": "dist",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom",
+  "id": "abc123",
+  "hooks": {}
+}

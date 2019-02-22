@@ -27,3 +27,18 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+## 作成手順
+
+```bash
+$ vue create vue-ionic-app
+```
+
+```bash
+$ npm run serve
+```
+
+```bash
+$ npm i @modus/ionic-vue vue-router @ionic/core
+```
