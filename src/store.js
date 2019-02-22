@@ -62,7 +62,7 @@ export default new Vuex.Store({
             commit('LOGIN',{token, user, repos})
         },
         async reLogin({state,dispatch}){
-            if(state.token){
+            if(state.token && !state.user){
                 await dispatch('login',state.token)
             }
             endLoading()
