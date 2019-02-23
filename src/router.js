@@ -14,9 +14,9 @@ const router = new IonicVueRouter({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/',
-      component: Home,
-      meta: { guestAccessible: true }
+        path: '/',
+        component: Home,
+        meta: { guestAccessible: true }
     },
     {
       path: '/repos',
@@ -26,6 +26,7 @@ const router = new IonicVueRouter({
       path: '/repos/:owner/:repos',
       component: () => import('@/views/RepoDetail.vue')
     },
+    { path: '*', redirect: { name: '/' }}
   ],
 })
 
